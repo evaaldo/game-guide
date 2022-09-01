@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Anton&display=swap');
+
+body {
+    background: linear-gradient(rgb(241, 79, 79), black);
+    border: 5px solid black;
+}
+form.cabecalho {
+    text-align: center;
+    padding-top: 30px;
+}
+form label {
+    font-family: 'Aboreto', cursive;
+    font-size: 20px;
+    font-weight: 500;
+}
+form input {
+    background: #222020;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-family: 'Aboreto', cursive;
+    border-radius: 10px;
+}
+.input-padrao {
+    display: flex;
+    font-size: 20px;
+    margin: auto;
+}
+.principal {
+    width: 100%;
+    height: 70%;
+}
+.opcoes {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.lista-opcoes {
+    margin: 70px auto;
+}
+.itens {
+    height: 250px;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    align-items: center;
+    align-content: center;
+    border: 5px solid black;
+    border-radius: 10px;
+    transition: 1s all; 
+}
+.itens:hover {
+    transform: scale(1.1);
+}
+li a {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    color: black;
+    padding-left: 10px;
+    padding-top: 50px;
+    transition: 1s all;
+}
+li a:hover {
+    font-size: 30px;
+}
+li p {
+    display: flex;
+    padding-top: 1.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-family: 'Aboreto', cursive;
+    font-weight: 600;
+}
+.titulo-principal {
+    width: 100%;
+    height: 300px;
+}
+.titulo-principal h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Aboreto', cursive;
+    font-weight: bold;
+    padding-top: 40px;
+}
