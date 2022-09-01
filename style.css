@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Anton&display=swap');
 
 body {
-    background: linear-gradient(rgb(241, 79, 79), black);
+    background: linear-gradient(#daa520, black);
     border: 5px solid black;
 }
 form.cabecalho {
