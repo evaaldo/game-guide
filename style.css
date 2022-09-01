@@ -58,7 +58,8 @@ form input.search:hover {
     align-content: center;
     border: 5px solid black;
     border-radius: 10px;
-    transition: 1s all; 
+    transition: 1s all;
+    box-shadow: 10px 10px 15px;
 }
 .itens:hover {
     transform: scale(1.1);
