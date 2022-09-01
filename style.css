@@ -20,6 +20,14 @@ form input {
     color: white;
     font-family: 'Aboreto', cursive;
     border-radius: 10px;
+    transition: 800ms all;
+}
+form input.search {
+    margin-top: 10px;
+    cursor: pointer;
+}
+form input.search:hover {
+    color: #dfa70d;
 }
 .input-padrao {
     display: flex;
